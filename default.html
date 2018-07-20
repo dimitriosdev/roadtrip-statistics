@@ -1,0 +1,47 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="./styles/vendor/bootstrap.min.css">
+        <link href="./styles/styles.css" rel="stylesheet">
+
+        <title>Routes</title>
+
+        <script type="text/javascript" src="./scripts/vendor/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="./scripts/data.js"></script>
+        <script type="text/javascript" src="./scripts/scripts.js"></script>
+            
+    </head>
+    <body>
+        
+        <div class="container">
+                <div class="media mtopbottom20">
+                        <img class="mr-3" src="./images/Paxoi.jpg" alt="Paxoi">
+                        <div class="media-body">
+                          <h5 class="mt-0">Summer 2018</h5>
+                          Plans and numbers.
+                        </div>
+                      </div>
+                <div class="row">
+                    <div class="col-sm">
+                        Total distance
+                    </div>
+                    <div class="col-sm js-total-distance"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        Total driving time
+                    </div>
+                    <div class="col-sm js-total-duration"></div>
+                </div>
+                <div class="row" id="map"></div>
+            </div>
+    </body>
+
+    <!--Load the API from the specified URL-->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI9s-_2sG4F10bKTygFhlggFhNJqado-0&callback=initMap">
+    </script>
+</html>
+

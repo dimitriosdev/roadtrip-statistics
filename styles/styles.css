@@ -1,0 +1,21 @@
+#map {
+    height: 400px;
+    background-color: grey;
+  }
+
+/** Bootstrap overrides**/
+.col-sm {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+}
+
+.mtopbottom20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mr-3 {
+    max-width: 130px;
+}
